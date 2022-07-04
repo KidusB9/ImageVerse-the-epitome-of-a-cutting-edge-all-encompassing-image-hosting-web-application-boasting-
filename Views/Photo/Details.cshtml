@@ -1,0 +1,45 @@
+﻿@model accountAuthentication.Models.Table
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Table</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Image_Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Image_Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Category)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.image_Path)
+        </dt>
+
+        <dd>
+            <img src="@Url.Content(Session["Image2"].ToString())" height="250" width="250" />
+        </dd>
+
+    </dl>
+</div>
+<p>
+    <a href='https://pixlr.com/e/#editor'>Editor</a><br />
+    <a href="https://www.facebook.com">Share</a><br />
+
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
