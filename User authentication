@@ -1,0 +1,57 @@
+using System;
+using System.Security.Cryptography;
+using System.Text;
+
+namespace UserAuthenticationExample
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter username:");
+            string username = Console.ReadLine();
+            Console.WriteLine("Enter password:");
+            string password = Console.ReadLine();
+
+            if (ValidateUser(username, password))
+            {
+                Console.WriteLine("Login successful!");
+                // Start a new session for the user
+            }
+            else
+            {
+                Console.WriteLine("Login failed. Please try again.");
+            }
+
+            Console.ReadLine();
+        }
+
+        static bool ValidateUser(string username, string password)
+        {
+            // Retrieve the hash of the password stored for the given username
+            string storedHash = GetStoredPasswordHash(username);
+
+            // Hash the entered password
+            string enteredHash = HashPassword(password);
+
+            // Compare the hashes
+            return storedHash == enteredHash;
+        }
+
+        static string GetStoredPasswordHash(string username)
+        {
+            // Code to retrieve the stored hash for the given username from a database, file, or in-memory data structure
+            return "A1B2C3D4E5F6G7H8";
+        }
+
+        static string HashPassword(string password)
+        {
+            using (SHA256 sha256 = SHA256.Create())
+            {
+                byte[] bytes = Encoding.UTF8.GetBytes(password);
+                byte[] hash = sha256.ComputeHash(bytes);
+                return BitConverter.ToString(hash).Replace("-", "");
+            }
+        }
+    }
+}
