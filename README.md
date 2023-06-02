@@ -1,52 +1,38 @@
-# WEbProject
-Full-featured image hosting web app
-App features
-👉 online image-gallery
-•	image storage service 
-•	upload-image
-•	image-sharing
-•	Editing image (redirect to photo editing apps based on users’ option)
-•	Search image option based on Name and date of the image
-•	Delete unnecessary Image option based on the user choice.
-Functional requirement
-	we need to build online image storage app that gives access to a registered user to upload, edit, search, delete and share their personal image.
-	There is a private image folder in the app that can only be accessed by an authorized user, but the public image folder can be seen by anyone who have the link.
-	The user can share their photo which is found in the app to social media (Facebook, Instagram)
-Non functional requirement
--	We created the app for a web browser (web app).
--	Compatible to all device size (smart phone, laptop).
--	Compatible with chrome, edge, Firefox browsers.
--	Our web app contains “help” option to clarify how the system work for the users.
+Introducing "ImageVerse" - an innovative, state-of-the-art web project that redefines the concept of image hosting. This full-featured application transcends boundaries with its cutting-edge functionalities and intuitive interface.
 
-Functional requirement
+App Features:
 
-=> Image Management choice
-        - Uploading Image.
-        - Editing image by redirecting the user to online editing app.
-        -search the image from the list of image-gallery.
-        -delete the image from the image-gallery.
-=> Image View and share options
-    -public images viewed by everyone and can be shared to social media (Facebook, Instagram).
-- private images viewed only by the user and can’t be shared with other users.
+🌟 Unleash the Power of Online Image Galleries:
 
+Immerse yourself in a seamless image storage service that caters to your every need.
+Effortlessly upload images and witness them come to life in a captivating online gallery.
+🌟 Amplify Your Creativity with Editing Options:
 
+Embark on a journey of artistic expression as we seamlessly integrate with leading photo editing apps, unleashing a world of boundless possibilities.
+🌟 Discover Images with Unparalleled Ease:
 
+Unleash the power of our intelligent search functionality, empowering you to locate images effortlessly based on name and date.
+🌟 Tailor Your Collection with Precision:
 
+Enjoy the freedom of choice as you delete unnecessary images, hand-picking a curated selection that resonates with your vision.
+Functional Requirements:
 
+💡 Image Management at Your Fingertips:
 
+Empower yourself to effortlessly upload, edit, search, delete, and share your personal images within our secure online image storage app.
+💡 A World of Privacy and Accessibility:
 
+Dive into the realm of exclusivity with a private image folder, accessible only to authorized users.
+Meanwhile, our public image folder opens a window to showcase your creative genius, ready to captivate anyone who encounters its allure.
+Non-Functional Requirements:
 
+🚀 Seamless Web Browsing Experience:
 
+Our meticulously crafted web app guarantees an optimized and immersive experience, tailored to suit a variety of device sizes, from smartphones to laptops.
+🚀 Browser Compatibility at Its Finest:
 
+Embrace compatibility without compromise, as ImageGenius seamlessly operates across leading browsers such as Chrome, Edge, and Firefox.
+🚀 Guiding You Every Step of the Way:
 
-1. Image Management
-- As a user, I’m able to upload my Image to my image storage account.
-- As a user, I’m able to edit my image
-- As a user, I’m able to search my image from my image list.
-- As a user, I’m able to delete my image if I don’t want it.
-
-2. viewing and sharing Image
-- As a user, I’m able to categorize my image into private and public image category.
--As a user, I’m able to share my public image to my social media account (Facebook and Instagram).
--As a user, I have a privilege to choose whether or not my private image be viewed and shared to other users.
-
+Experience utmost clarity with our comprehensive "help" option, ensuring that users are guided through the app's functionalities effortlessly.
+Explore ImageGenius, where innovation meets limitless creative potential. Unleash your images, empower your vision, and redefine the way you engage with the art of digital imagery.
