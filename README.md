@@ -1,6 +1,6 @@
 Introducing "ImageVerse" - an innovative, state-of-the-art web project that redefines the concept of image hosting. This full-featured application transcends boundaries with its cutting-edge functionalities and intuitive interface.
 
-App Features:
+App Features:,,
 
 🌟 Unleash the Power of Online Image Galleries:
 
