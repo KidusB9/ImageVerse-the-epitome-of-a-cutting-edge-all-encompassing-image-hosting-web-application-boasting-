@@ -2,7 +2,7 @@ Introducing "ImageVerse" - an innovative, state-of-the-art web project that rede
 
 App Features:.
 
-🌟 Unleash the Power of Online Image Galleries:
+🌟 Unleash the Power of Online Image Galleries:!
 
 
 
