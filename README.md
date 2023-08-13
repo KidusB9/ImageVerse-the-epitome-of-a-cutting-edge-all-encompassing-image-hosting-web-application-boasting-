@@ -9,7 +9,7 @@ App Features:.
 Immerse yourself in a seamless image storage service that caters to your every need.
 Effortlessly upload images and witness them come to life in a captivating online gallery.
 
-🌟 Amplify Your Creativity with Editing Options:...
+🌟 Amplify Your Creativity with Editing Options:....
 
 
 Embark on a journey of artistic expression as we seamlessly integrate with leading photo editing apps, unleashing a world of boundless possibilities.
