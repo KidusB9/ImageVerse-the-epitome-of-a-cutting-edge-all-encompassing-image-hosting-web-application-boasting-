@@ -1,0 +1,29 @@
+var downTimes = {};
+var upTimes = {};
+
+document.addEventListener('keydown', function(event) {
+    downTimes[event.key] = new Date().getTime();
+});
+
+document.addEventListener('keyup', function(event) {
+    upTimes[event.key] = new Date().getTime();
+    var downTime = downTimes[event.key];
+    var upTime = upTimes[event.key];
+    console.log('Key: ' + event.key + ', DownTime: ' + downTime + ', UpTime: ' + upTime + ', Duration: ' + (upTime - downTime));
+});
+
+
+var loadTime = new Date().getTime();
+var firstInteractionTime;
+
+function recordFirstInteraction() {
+    if (!firstInteractionTime) {
+        firstInteractionTime = new Date().getTime();
+        var timeToInteract = firstInteractionTime - loadTime;
+        console.log('Time to first interaction: ' + timeToInteract + ' ms');
+    }
+}
+
+document.addEventListener('keydown', recordFirstInteraction);
+document.addEventListener('mousedown', recordFirstInteraction);
+document.addEventListener('touchstart', recordFirstInteraction);
